@@ -101,6 +101,7 @@ Add a manifest to the rendition file and specify the source file as the parent:
 
 ```
 # As of c2patool v0.3.6, the -p flag will look for the provided file relative to the directory that is specified by -m
+# See https://github.com/contentauth/c2patool/issues/74
 # In order to workaround this issue, we can copy the parent file to the directory that c2patool will be looking in
 cp data/mini_bbb.mp4 c2pa/
 c2patool data/output6.mp4 -m c2pa/mini_bbb_rendition_manifest.json -p ../mini_bbb.mp4 -o c2pa/signed_output6.mp4
