@@ -81,7 +81,7 @@ First generate a transcoded rendition:
 
 ```
 ffmpeg -i data/mini_bbb.mp4 -c:v libx264 -crf 23 -maxrate 0.8M -bufsize 1.6M data/output6.mp4
-
+```
 
 Add a manifest to the source file:
 
